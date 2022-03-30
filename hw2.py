@@ -38,12 +38,11 @@ def g_iter(n):
     22
     """
     "*** YOUR CODE HERE ***"
-    if n <= 3:
-        return n
     
    if n <= 3:
         return n
     a, b, c = 1, 2, 3
+    
     while n > 3:
         a, b, c = b, c, c + 2 * b + 3 * a
         n -= 1
