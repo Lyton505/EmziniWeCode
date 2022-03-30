@@ -39,8 +39,9 @@ def g_iter(n):
     """
     "*** YOUR CODE HERE ***"
     
-   if n <= 3:
+    if n <= 3:
         return n
+    
     a, b, c = 1, 2, 3
     
     while n > 3:
