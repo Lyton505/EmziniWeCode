@@ -40,10 +40,14 @@ def g_iter(n):
     "*** YOUR CODE HERE ***"
     if n <= 3:
         return n
+    
+   if n <= 3:
+        return n
+    a, b, c = 1, 2, 3
     while n > 3:
-        index = 1
-        solution = 0
-        baseline = 10
+        a, b, c = b, c, c + 2 * b + 3 * a
+        n -= 1
+    return c
 
 
 
